@@ -1,6 +1,6 @@
 body {
-    background-color: rgba(0, 0, 0, 0.61);
-    color: aliceblue;
+    background-color: whitesmoke;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -19,4 +19,20 @@ img {
 
 h1 {
     text-align: center;
+}
+
+.button-container {
+    width: 400px;
+    margin: 16px auto;
+    background: #e3f4ff;
+    text-align: center;
+    padding: 8px;
+}
+
+button {
+    display: block; 
+    margin: 0 auto; 
+    background: white;
+    border: 1px solid #eee;
+    padding: 8px 24px;
 }
